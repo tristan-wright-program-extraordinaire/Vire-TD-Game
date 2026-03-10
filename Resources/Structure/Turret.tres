@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Placing_Structure" load_steps=3 format=3 uid="uid://f6a8ltmfmmg5"]
+
+[ext_resource type="PackedScene" uid="uid://b3npseedff1mw" path="res://Scenes/Turret.tscn" id="1_85x2e"]
+[ext_resource type="Script" uid="uid://ckpbc0wn3hclr" path="res://Resources/Structure/Placing_Structure.gd" id="2_3fstv"]
+
+[resource]
+resource_name = "Turret"
+script = ExtResource("2_3fstv")
+protection_radius = 1
+prevention_radius = 3
+restriction_radius = 1.2
+scene = ExtResource("1_85x2e")
+placing_group = "Snap Point"
+metadata/_custom_type_script = "uid://ckpbc0wn3hclr"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Placing_Structure" load_steps=3 format=3 uid="uid://drlsppnkrrysl"]
+
+[ext_resource type="Script" uid="uid://ckpbc0wn3hclr" path="res://Resources/Structure/Placing_Structure.gd" id="1_bjtxy"]
+[ext_resource type="PackedScene" uid="uid://dmgbkj2n8t3lm" path="res://Scenes/Nest.tscn" id="1_k3fyt"]
+
+[resource]
+script = ExtResource("1_bjtxy")
+protection_radius = 1
+prevention_radius = 2
+restriction_radius = 3.0
+scene = ExtResource("1_k3fyt")
+placing_group = "Tile"
+metadata/_custom_type_script = "uid://ckpbc0wn3hclr"

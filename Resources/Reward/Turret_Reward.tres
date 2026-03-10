@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Turret_Reward" load_steps=3 format=3 uid="uid://724xhvgq7qqj"]
+
+[ext_resource type="Resource" uid="uid://f6a8ltmfmmg5" path="res://Resources/Structure/Turret.tres" id="1_dmmca"]
+[ext_resource type="Script" uid="uid://daac07qw42gi1" path="res://Resources/Reward/Turret_Reward.gd" id="2_aiv64"]
+
+[resource]
+script = ExtResource("2_aiv64")
+placing_structure = ExtResource("1_dmmca")
+glyph = 0
+rarity = 0
+empowered_stats = Array[int]([])
+reward_type = 2
+metadata/_custom_type_script = "uid://bu4oa827uo5vg"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="TurretGunsConfig" load_steps=2 format=3 uid="uid://1uxb7k4yyq5f"]
+
+[ext_resource type="Script" uid="uid://dg17ghb0hkj2" path="res://Resources/TurretGuns/TurretGunsConfig.gd" id="1_6wq5r"]
+
+[resource]
+script = ExtResource("1_6wq5r")
+base_damage = 0.0
+base_range = 0.0
+base_cost = 0.0

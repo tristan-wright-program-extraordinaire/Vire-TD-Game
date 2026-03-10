@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Kindle_Reward" load_steps=2 format=3 uid="uid://xl0dy0yr1nma"]
+
+[ext_resource type="Script" uid="uid://dmab8md2g00ck" path="res://Resources/Reward/Kindle_Reward.gd" id="1_o5q7o"]
+
+[resource]
+script = ExtResource("1_o5q7o")
+element = 0
+rarity = 0
+reward_type = 1
+metadata/_custom_type_script = "uid://bu4oa827uo5vg"

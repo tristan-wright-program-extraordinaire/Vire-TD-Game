@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Token_Reward" load_steps=2 format=3 uid="uid://djquw4yitjba6"]
+
+[ext_resource type="Script" uid="uid://bffk3f751d5bc" path="res://Resources/Reward/Token_Reward.gd" id="1_emyyy"]
+
+[resource]
+script = ExtResource("1_emyyy")
+stat = 0
+rarity = 0
+reward_type = 0
+metadata/_custom_type_script = "uid://bu4oa827uo5vg"
